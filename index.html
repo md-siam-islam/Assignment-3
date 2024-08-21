@@ -27,7 +27,8 @@
                 color2:'rgb(239, 218, 110)',
                 color3:'rgb(164, 218, 195)',
                 color4:'rgb(119, 170, 234)',
-                color5:'rgb(171, 239, 95)'
+                color5:'rgb(171, 239, 95)',
+                color6:'#c0c4be'
               },
             Fontfamily:{
                 font: '"Manrope", sans-serif'
@@ -61,8 +62,8 @@
                 <div class="navbar-end flex ">
                     <i class="mr-6 bg-white rounded-full shadow p-3 text-2xl fa-solid hidden lg:block md:block fa-magnifying-glass"></i>
                     <i class="mr-6 bg-white rounded-full shadow p-3 text-2xl fa-solid hidden lg:block md:block fa-cart-shopping"></i>
-                  <a class=" hidden lg:block px-4 py-3 rounded-full  bg-color5 text-xl font-bold  ">Book Consult  <i class="fa-solid fa-arrow-right bg-black text-white px-4 py-2 ml-3  rounded-full -rotate-45 text-xl"></i></a>
-                  <i class="fa-solid fa-bars mr-6 bg-white rounded-full shadow px-3 py-2 text-2xl lg:hidden "></i>
+                  <a class=" hidden md:hidden lg:block px-4 py-2 rounded-full  bg-color5 text-xl font-bold  ">Book Consult  <i class="fa-solid fa-arrow-right bg-black text-white px-2 py-1 ml-3  rounded-full -rotate-45 text-xl"></i></a>
+                  <i class="fa-solid fa-bars mr-6 bg-white rounded-full shadow px-3 py-2 text-2xl lg:hidden md:block block "></i>
                 </div>
               </div>
         </nav>
@@ -82,7 +83,41 @@
          </section>
     </header>
     <main>
-
+        <section class=" bg-color6 my-40 ">
+            <div class="flex flex-col lg:flex-row items-center justify-center w-11/12 mx-auto py-32 text-center lg:text-left ">
+               <div class="space-y-6 mb-8 lg:mb-0">
+                <div class=" hidden lg:block border-dashed border-2 w-32 rotate-12">
+                    <img src="./assets/Vector.png" alt="" >
+                </div>
+                <div><a href="" class="font-bold bg-white rounded-full p-1"><i class="fa-solid fa-arrow-right"></i>About Us</a></div>
+                <div>
+                    <h1 class="text-4xl font-bold mb-5">We design thoughtful,<br> liveable spaces</h1>
+                    <p class="font-bold text-gray-500">The barn house captivates with its blend of rustic charm and 
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <div class="flex lg:items-center bg-white p-10 w-11/12 rounded-3xl  text-left ml-4 lg:ml-0 md:ml-7">
+                    <div><img src="./assets/commercial.png" alt="" class=""></div>
+                    <div class="ml-8">
+                        <h1 class="text-xl text-gray-600 font-bold mb-2">Commercial</h1>
+                        <p class="text-gray-500 font-bold">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                </div>
+                
+                <div class="flex lg:items-center bg-white p-10 w-11/12 rounded-3xl text-left ml-4 lg:ml-0 md:ml-7">
+                    <div><img src="./assets/residential.png" alt="" class="mr-7"></div>
+                    <div class="ml-8 ">
+                        <h1 class="text-xl text-gray-600 font-bold mb-2">Residential</h1>
+                        <p class="text-gray-500 font-bold">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+                
+               </div>
+                <div class="lg:w-full h-10/12 w-11/12">
+                    <img src="./assets/Rectangle.png" alt="" class="w-full h-full">
+                </div>
+            </div>
+            
+        </section>
     </main>
 
     <footer>
